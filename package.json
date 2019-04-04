@@ -1,11 +1,19 @@
 {
   "name": "anylerolero",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This is anylerolero's first npm package.🤓",
-  "main": "src/index.js",
-  "scripts": {},
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "node src/test.js"
+  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.4.3",
-    "@babel/core": "^7.4.3"
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3"
   }
 }

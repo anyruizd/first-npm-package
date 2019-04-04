@@ -1,5 +1,5 @@
 function helloWorld (name = 'anonymous') {
-  return 'Hello World!!! ' + name
-};
+  return `Hello ${name}!!`
+}
 
 module.exports = helloWorld;
