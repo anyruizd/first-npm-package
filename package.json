@@ -1,0 +1,11 @@
+{
+  "name": "anylerolero",
+  "version": "1.0.0",
+  "description": "This is anylerolero's first npm package.🤓",
+  "main": "src/index.js",
+  "scripts": {},
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3"
+  }
+}
