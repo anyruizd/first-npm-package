@@ -1,12 +1,12 @@
 {
   "name": "anylerolero",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "This is anylerolero's first npm package.🤓",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
   "dependencies": {
-    "matilda-antonia": "^1.1.1"
+    "matilda-antonia": "^2.0.0"
   }
 }
