@@ -1,7 +1,11 @@
 {
   "scripts": {
-    "build": "babel --config-file ./.babelrc packages/anylerolero/src -d packages/anylerolero/lib",
-    "test": "node packages/anylerolero/src/test.js"
+    "build": "npm run build-anylerolero && npm run build-matilda-antonia",
+    "build-anylerolero": "babel --config-file ./.babelrc packages/anylerolero/src -d packages/anylerolero/lib",
+    "build-matilda-antonia": "babel --config-file ./.babelrc packages/matilda-antonia/src -d packages/matilda-antonia/lib",
+    "test": "npm run test-matilda-antonia && npm run test-anylerolero",
+    "test-anylerolero": "node packages/anylerolero/src/test.js",
+    "test-matilda-antonia": "node packages/matilda-antonia/src/test.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.3",

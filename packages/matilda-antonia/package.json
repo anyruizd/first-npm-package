@@ -1,0 +1,9 @@
+{
+  "name": "matilda-antonia",
+  "version": "1.1.1",
+  "description": "This This uppercases texts.🤓",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ]
+}

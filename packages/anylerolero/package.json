@@ -5,5 +5,8 @@
   "main": "lib/index.js",
   "files": [
     "lib"
-  ]
+  ],
+  "dependencies": {
+    "matilda-antonia": "^1.1.1"
+  }
 }

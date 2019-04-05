@@ -1,5 +1,7 @@
+const uppercase = require('matilda-antonia')
+
 function helloWorld (name = 'anonymous') {
-  return `Hello ${name}!!`
+  return `Hello ${uppercase(name)}!!`
 }
 
 module.exports = helloWorld;
