@@ -1,0 +1,10 @@
+{
+  "name": "anylerolero",
+  "version": "1.1.0",
+  "description": "This is anylerolero's first npm package.🤓",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {}
+}
